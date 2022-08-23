@@ -1,0 +1,39 @@
+span{
+	background-color: yellow;
+	text-decoration-color: yellow;
+}
+
+
+
+img{
+
+	width: 350px;
+}
+
+
+
+
+
+#hh{
+	border: solid;
+	border-width: 5px;
+	border-color: red;
+	text-align: center;
+	width:  80%;
+	margin-left: 10%;
+
+}
+
+.one {
+
+	border: solid;
+	border-width: 2px;
+	border-color: black;
+	border: solid;
+	
+}
+
+
+table {
+	margin-left: 100px;
+}

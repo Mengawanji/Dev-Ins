@@ -1,0 +1,25 @@
+body {                           /* Selector */
+    background-color: gray;                   /* Declaration 1 */
+             /* Declaration 2 */
+    background-image: url(backgroundimage.jpeg);
+    background-size: cover;
+    display: table;
+    background-position: 50%;
+    width: 100%;
+}
+
+#hello {
+
+    text-decoration: underline;
+    text-align: inherit;
+    text-shadow: transparent;
+    text-transform: initial;
+    font-size: 22;
+}
+
+h1 {
+
+    color: green;
+    shape-margin: inherit;
+    font-size: 100;
+}

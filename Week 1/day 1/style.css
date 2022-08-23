@@ -1,0 +1,111 @@
+body{
+	background: #fff;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+nav{
+	background-color: white;
+	height: 30px;
+}
+
+a{
+	background-color: dodgerblue;
+	display: inline-block;
+	color: white;
+	float: right;
+	margin-right: 100px;
+	margin-top: 15px;
+	text-decoration: none;
+}
+
+small{
+	margin-left: 100px;
+	display: inline-block;
+	margin-top: 15px;
+}
+.button {
+	color: white;
+	background-color: #0D2DA3;
+	border-radius: 8px;
+	text-align: center;
+	border: none;
+	width: 80px;
+}
+
+#main-image{
+	background: url('oceanbackground.jpg');
+	position: relative;
+	height: 100vh;
+	margin: 0;
+	background-repeat: no-repeat;
+    background-size: cover;
+
+	 
+}
+h2{text-align: center;
+	padding: 180px 0 50px 0;
+	font-weight: normal;
+	font-family: Arial;
+	font-size: 40px;
+	color: white;
+}
+#text{
+	width: 300px;
+	padding: 10px 15px;
+	font-family: 'crete round', serif;
+	color:#444;
+}
+#mdp{
+	border:1px;
+	background: #0D2DA3;
+	padding: 10px 15px;
+	font-family: 'crete round', serif;
+	color: white;
+	width: 100px;
+
+
+}
+
+/*steps*/
+
+/*premiere methode*/
+/*#steps {
+	text-align: center;
+}
+
+.step {
+	width:100px;
+	margin: 70px;
+	display: inline-block;
+}
+*/
+
+/*2er methode*/
+
+#steps {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 40px;
+
+}
+
+.step {
+	text-align: center;
+}
+
+
+i{
+	color: #0D32BB;
+	font-size: 24px;
+}
+
+h4{
+	font-size: 50px;
+	color: #444;
+}
+p{
+	line-height: 30px;
+	color: #777;
+}
