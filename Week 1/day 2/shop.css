@@ -1,0 +1,37 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+
+}
+
+nav{
+	background-color: black;
+	height: 60px;
+}
+}
+#navbar{
+	display: inline;
+	width: 100%;
+	position: relative;
+	padding-top: 15px;
+	color: red;
+	margin-left: 20px;
+}
+
+img{
+	height: 230px;
+	width: 300px;
+	display:inline-block;
+}
+/*.main{
+	display: flex;
+}*/
+div{
+	display: inline-block;
+}
+ul,li{
+	display: inline-block;
+	margin-left: 310px;
+}

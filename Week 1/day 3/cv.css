@@ -1,0 +1,66 @@
+*{
+	margin:  0;
+	padding: 0;
+}
+
+#main{
+	background-color: seashell;
+	height: 710px;
+	width: 670px;
+	display: grid;
+	grid-gap: 3px;
+	border: 5px solid red;
+	grid-template-areas: 
+	" a a a"
+	" b c c"
+	" b c c"
+	" d e e"
+	" d e e" ;
+}
+#job{
+	display: flex;
+	justify-content: space-between;
+	border-radius: 8xp;
+	background-color: gray;
+	image-size: 40%;
+	border-radius: 6%;
+	text-decoration-color: black;
+	grid-area: a;
+}
+#job img{
+	border-radius: 18px;
+}
+#contact{
+	background-color: gray;
+	text-decoration-color: black;
+	grid-area: b;
+	font-size:18px;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+#profile{
+	background-color: gray;
+	text-decoration-color: black;
+	grid-area: c;
+	font-size:18px;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+#education{
+	background-color: gray;
+	text-decoration-color: black;
+	grid-area: d;
+	font-size:18px;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+#work{
+	background-color: gray;
+	text-decoration-color: black;
+	grid-area: e;
+	font-size:18px;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-align:justify-all; 
+}
+

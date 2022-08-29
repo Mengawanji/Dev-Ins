@@ -1,0 +1,88 @@
+*{
+	margin:  0;
+	padding: 0;
+}
+
+
+
+body{
+	margin: 0px;
+	height: 100vh;
+	width: 600px;
+	background-image: linear-gradient(to bottom right, yellow, red);	
+}
+#container{
+	display: flex;
+	justify-content: center;
+	background-color: white;
+    height: 300px;	
+    width: 400px;
+
+}
+#minidiv{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	justify-content: space-around;
+	background-color: white;
+	height: 250px;
+	width: 300px;
+	border: 5px solid red;
+	align-self: center; 
+}
+#minidiv1{
+	background-color: lightblue;
+	height: 40px;
+	width: 280px;
+	align-self: center;
+}
+#minidiv2{
+	background-color: lightblue;
+	height: 100px;
+	width: 180px;
+	align-self: center;
+}
+#minidiv3{
+	background-color: lightblue;
+	height: 40px;
+	width: 280px;
+	align-self: center;
+}
+
+
+#house{
+	display: flex;
+	justify-content: center;
+	background-color: white;
+    height: 250px;	
+    width: 350px;
+}
+#room{
+  	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	justify-content: space-around;
+	background-color: white;
+	height: 350px;
+	width: 500px;
+	border: 5px solid red;
+	align-self: center; 
+	padding: 20px;	
+}
+#bed1{
+    background-color: lightblue;
+	height: 60px;
+	width: 100%;
+	align-self: center;
+}
+#bed2{background-color: lightblue;
+	height: 60px;
+	width: 40%;
+	align-self:flex-end;
+
+}
+#bed3{  background-color: lightblue;
+	height: 60px;
+	width: 100%;
+	align-self: center;
+}
