@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Daily Challenge</title>
+</head>
+<body>
+<script type="text/javascript">
+	let sentence='the movie is not that bad'
+    let newSentence= sentence.split(" ")
+     console.log(newSentence)
+
+	let wordnot= sentence.indexOf("not") ;
+	console.log(wordnot)
+	let wordbad= sentence.indexOf("bad");
+	console.log(wordbad)
+
+	if (wordnot < wordbad){
+	   newSentence.splice(14, 10 ,'good');
+	   newSentence= newSentence.join(" ") ;
+       console.log(newSentence)
+	}
+       
+    else{
+    	console.log(sentence)
+    }
+
+
+
+</script>
+</body>
+
+</html>

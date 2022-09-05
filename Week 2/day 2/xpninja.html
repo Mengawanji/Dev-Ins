@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ninja</title>
+</head>
+<body>
+<script type="text/javascript">
+	
+let age1= 1996;
+let age2= 2000;
+let agediff = Math.abs(age1 - age2)  
+
+let answer ;
+ if(age1 >age2){
+answer= age1+agediff
+}
+else{
+	answer = age2 + agediff
+}
+
+console.log(answer)
+
+let zipcode = prompt('enter zip code')
+// let pattern = /^\d{5}$/;
+// if (pattern.test(zipcode)== true){
+// 	console.log('Ok')
+// }
+// else{
+// 	console.log('Try again')
+// }
+
+if(zipcode.length !==5 ||isNaN(zipcode)){
+	console.log('try again')
+}
+else{
+	console.log('good')
+}
+
+
+</script>
+</body>
+
+</html>

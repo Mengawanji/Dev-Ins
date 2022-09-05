@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exercise</title>
+</head>
+<body>
+<script type="text/javascript">
+	
+	let names =["James" ,"paul" , 17 , "peter",45]
+    
+ //    for( let i in names){
+ //  if(typeof(names[i]) == 'string'){
+ //  	if(names[i].charAt(0).toUpperCase() == names[i].charAt(0)){
+	// console.log(names[i])
+ //   }
+ //   else{
+ //   console.log(`${names[i].charAt(0).toUpperCase()}${names[i].substring(1,8)}`)
+ //  } 
+ //  }
+ //  else{
+	// console.log('its a number')
+ //   }
+ // }
+
+
+  for(let i in names){
+  	if(typeof(names[i]) !== 'string') {
+  		continue;
+  	}
+     else{
+     	console.log(names[i])
+     }
+  }
+
+
+
+</script>
+</body>
+
+</html>
