@@ -1,0 +1,139 @@
+
+.grid-container{
+  background-color: grey;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+  width: 900px;
+}
+
+#main{
+	background-color: grey;
+	height: 350px;
+	width: 180px;
+	display: grid;
+	grid-gap:5px;
+	margin-left: 15px;
+	margin-bottom: 18px;
+	grid-template-areas:
+	"a b c"
+	"d e f"
+	"g h i"
+	"j k l"
+	"m n o"
+	"p q r"
+	"s t u"
+ ;
+
+}
+
+#as{
+	background-color: red;
+	grid-area: a;
+}
+
+#bs{
+	background-color: blue;
+	grid-area: b;
+}
+#cs{
+	background-color: yellow;
+	grid-area: c;
+}
+#ds{
+	background-color: green;
+	grid-area: d;
+}
+#es{
+	background-color: black;
+	grid-area: e;
+}
+#fs{
+	background-color: orange;
+	grid-area: f;
+}
+#gs{
+	background-color: pink;
+	grid-area: g;
+}
+#hs{
+	background-color: royalblue;
+	grid-area: h;
+}
+#is{
+	background-color: palevioletred;
+	grid-area: i;
+}
+#js{
+	background-color: whitesmoke;
+	grid-area: j;
+}
+#ks{
+	background-color: goldenrod;
+	grid-area: k;
+}
+#ls{
+	background-color: lightcyan;
+	grid-area: l;
+}
+#ms{
+	background-color: silver;
+	grid-area: m;
+}
+#ns{
+	background-color: lightgoldenrodyellow;
+	grid-area: n;
+}
+#os{
+	background-color: honeydew;
+	grid-area: o;
+}
+#ps{
+	background-color:darkgoldenrod;
+	grid-area: p;
+}
+#qs{
+	background-color:fuchsia;
+	grid-area: q;
+}
+#rs{
+	background-color: darkorchid;
+	grid-area: r;
+}
+#ss{
+	background-color: darkslateblue;
+	grid-area: s;
+}
+#ts{
+	background-color: goldenrod;
+	grid-area: t;
+}
+#us{
+	background-color: seagreen;
+	grid-area: u;
+}
+
+
+#but{
+  display:grid; 
+	background-color: whitesmoke;
+	color: black; 
+	font-size: 45px; 
+	border-radius: 20px;
+	width:180px ;
+	margin-bottom: 10px;
+	margin-top: 15px;
+	margin-left: 15px;
+	height: 55px;"
+	text-align:center;
+	display: grid;
+  align-items: center;
+  justify-items: center;
+
+}
+
+.square{
+	height: 50px;
+  width: 130; 
+  grid-template-columns: repeat(60, 30px);
+}

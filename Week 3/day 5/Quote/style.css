@@ -1,0 +1,74 @@
+/* Styling external file */
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+/* Styling the navigation bar */
+/* Parent element */
+#Main{
+    display: flex;
+    align-items: center;
+    background-color: lightblue;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+}
+/* Logo style */
+h3#Logo{
+    margin-left: 20px;
+    color: white;
+}
+/* unordered list modification */
+ul#parent{
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    font-weight: bold;
+    font-size: 20px;
+}
+/* list modification */
+li.child{
+    margin-right: 10px;
+}
+/* Anchor tag styling */
+li.child a{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: larger;
+}
+/* Active link */
+li.child a.active{
+    background-color: white;
+    color: black;
+}
+/* Hover effect */
+li.child a:hover{
+    background-color: #f9004d;
+    color: white;
+}
+
+img{
+  height: 100vh;
+  width: 100%;
+}
+/* Footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: lightblue;
+    color: black;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
+span{
+    color:#f9004d;
+}

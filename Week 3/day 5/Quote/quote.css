@@ -1,0 +1,170 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Body styling */
+body{
+/*  align-items: center;
+  justify-content: center;*/
+  min-height: 100vh;
+  background: lightblue;
+}
+/*  */
+#flexing{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* Link styling */
+a{
+  display: flex;
+  width: 60px;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 3px;
+  align-items: center;
+  color: black;
+  background-color: white;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+a:hover{
+  color:white;
+  background-color:red;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+/* Parent div styling */
+.Main{
+  width: 605px;
+  background: white;
+  border-radius: 15px;
+  padding: 30px 30px 25px;
+}
+
+/* Styling the title of quote,content div */
+/*header, .content :where(i, p, span){
+  color: #202842;
+}*/
+
+/* Styling the title of quote */
+.Main header{
+  font-size: 35px;
+  font-weight: 600px;
+  text-align: center;
+}
+
+/* Parent of quote and authour with i tag styling */
+.Main .content{
+  margin: 35px 0;
+}
+
+/* Quote Area styling containing i tag and paragraph with quote */
+.content .quote-area{
+  display: flex;
+  justify-content: center;
+}
+
+/* I tag styling */
+.quote-area i{
+  font-size: 15px;
+}
+
+/* First quote sign infront of paragraph */
+.quote-area i:first-child{
+  margin: 3px 10px 0 0;
+}
+
+/* last quote sign infront of paragraph */
+.quote-area i:last-child{
+  display: flex;
+  margin: 0 0 3px 10px;
+  align-items: flex-end;
+}
+
+/* Quote text styling */
+.quote-area .quote{
+  font-size: 22px;
+  text-align: center;
+}
+
+/* Author styling */
+.content .author{
+  display: flex;
+  font-size: 18px;
+  margin-top: 20px;
+  font-style: italic;
+  justify-content: flex-end;
+}
+
+/* fisrt child author styling */
+.author span:first-child{
+  margin: -3px 5px 0 0;
+  font-family: monospace;
+}
+
+/* Buttons styling */
+.Main .buttons{
+  border-top: 1px dotted black;
+}
+
+/* parent for button and social media styling */
+.buttons .features{
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* parent List of media styling */
+.features ul{
+  display: flex;
+}
+
+/* children List of media styling */
+.features ul li{
+  margin: 0 5px;
+  height: 47px;
+  width: 47px;
+  display: flex;
+  cursor: pointer;
+  color: darkblue;
+  list-style: none;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid blue;
+  transition: all 0.3s ease;
+}
+
+/* Effects on links and active media styling */
+ul li:is(:hover, .active){
+  color: white;
+  background: blue;
+}
+
+/* Button styling */
+.buttons button{
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 13px 22px;
+  border-radius: 30px;
+  background: blue;
+  cursor: pointer;
+}
+/* JS EVENT */
+.buttons button.loading{
+  opacity: 0.7;
+}
